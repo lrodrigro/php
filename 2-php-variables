@@ -5,8 +5,15 @@ $filmView = true;                                     //boolean
 $filmYear = 1989;                                     //integer
 $filmRate = 8.2;                                      //float
 
-echo $filmName;
-echo $filmView;
-echo $filmYear;
-echo $filmRate;
+echo $filmName . PHP_EOL;
+echo $filmView . "\r\n";
+echo $filmYear . PHP_EOL;
+echo $filmRate . PHP_EOL;
 
+-- résultat
+
+lrodrig@roysi022:~/workspace/phpProjects/quetes$ php variables.php 
+Indiana Jones et la dernière croisade
+1
+1989
+8.2
